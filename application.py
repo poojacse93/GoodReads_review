@@ -10,7 +10,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 import requests
 from helpers import login_required
 
-os.environ["DATABASE_URL"] = "postgres://nwonjhmbpslrvx:d9bd4272d60aed0b26af4f671a3119ef4188cb3a223a950daab6262aab0361dd@ec2-34-202-88-122.compute-1.amazonaws.com:5432/d2j46inls63bnh"
+#os.environ["DATABASE_URL"] = "postgres://nwonjhmbpslrvx:d9bd4272d60aed0b26af4f671a3119ef4188cb3a223a950daab6262aab0361dd@ec2-34-202-88-122.compute-1.amazonaws.com:5432/d2j46inls63bnh"
 # Check for environment variable
 if not os.getenv("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")
